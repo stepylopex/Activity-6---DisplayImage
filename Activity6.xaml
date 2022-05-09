@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.Activity6" Title="Image Display">
+    <ContentPage.Content>
+
+
+
+        <StackLayout>
+            <StackLayout>
+                <Label Text="My Image" Margin="150,50,0,0" />
+                <Image Source="nature.jpg"
+                               Aspect="Fill"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="Center"
+                               HeightRequest="{OnPlatform iOS=300, Android=250}" />
+            </StackLayout>
+        </StackLayout>
+
+
+
+    </ContentPage.Content>
+</ContentPage>
